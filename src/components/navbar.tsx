@@ -33,7 +33,7 @@ const Navbar = () => {
             <AiOutlineSearch 
               className="text-lg md:text-xl" />
             <span>explore our data</span>
-          </div>
+          </div> 
         </div>
       </div>
 
