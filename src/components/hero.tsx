@@ -7,7 +7,7 @@ import {
 
 const Hero = () => {
   return (
-    <div className="max-w-7xl mx-auto">
+    <div className="max-w-7xl mx-auto pb-16">
 
       <div className="py-2 md:py-6 flex justify-center">
         <Link 
@@ -42,7 +42,7 @@ const Hero = () => {
           <span className="text-center text-xs md:text-sm uppercase font-mono tracking-widest">
             Search For Free
           </span>
-          <div className="absolute bg-[#222] h-full w-[101%] -z-10 top-2.5 left-1"></div>
+          <div className="absolute bg-[#222] h-full w-[101%] -z-10 top-2 md:top-2.5 left-1 md:left-2"></div>
         </Link>
         <Link 
           href="/"
@@ -50,7 +50,7 @@ const Hero = () => {
           <span className="text-center text-xs md:text-sm uppercase font-mono tracking-widest">
             Request A Demo
           </span>
-          <div className="absolute bg-[#222] h-full w-[101%] -z-10 top-2.5 left-1"></div>
+          <div className="absolute bg-[#222] h-full w-[101%] -z-10 top-2 md:top-2.5 left-1 md:left-2"></div>
         </Link>
       </div>
     </div>
