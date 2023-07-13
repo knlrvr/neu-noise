@@ -49,6 +49,7 @@ const Navbar = () => {
         </Link>
         <div className="border-r-2 border-[#222]"
         ></div>
+
         {/* sm */}
         <Link href="/#more" className="hidden md:block w-full py-4 text-center hover:text-yellow-500 transition duration-200">
           documentation
@@ -57,6 +58,7 @@ const Navbar = () => {
         <Link href="/#more" className="block md:hidden w-full py-4 text-center hover:text-yellow-500 transition duration-200">
           docs
         </Link>
+        
         <div className="border-r-2 border-[#222]"
         ></div>
         <Link href="/#contact" className="w-full py-4 text-center hover:text-yellow-500 transition duration-200">
@@ -65,7 +67,7 @@ const Navbar = () => {
       </div>
 
       {/* more links */}
-      <div className="mt-2 flex flex-wrap gap-4 items-center justify-between py-2">
+      <div className="mt-2 flex gap-4 items-center justify-evenly flex-wrap md:justify-between py-2">
         
         {/* PRODUCT */}
         <div
@@ -76,7 +78,7 @@ const Navbar = () => {
           <span className="group-hover:text-yellow-500 transition duration-200 cursor-pointer uppercase text-sm">Product</span>
           <BsChevronDown className="group-hover:text-yellow-500 transition duration-200" />
           {activeLink === 0 && (
-            <div className="absolute top-[12rem] left-0 right-2 p-2">
+            <div className="absolute top-[12rem] left-0 right-2 z-50">
               <div className="max-w-7xl mx-auto h-fit md:h-48 border-b-2 border-[#222] bg-white flex flex-col md:flex-row justify-between text-sm py-2">
                 <div className="w-full md:w-1/3" >
                   <p className="font-mono">
@@ -158,7 +160,7 @@ const Navbar = () => {
           <span className="group-hover:text-yellow-500 transition duration-200 cursor-pointer uppercase text-sm">solutions</span>
           <BsChevronDown className="group-hover:text-yellow-500 transition duration-200" />
           {activeLink === 1 && (
-            <div className="absolute top-[12rem] left-0 right-2 p-2">
+            <div className="absolute top-[12rem] left-0 right-2 z-50">
               <div className="max-w-7xl mx-auto h-fit md:h-48 border-b-2 border-[#222] bg-white flex flex-col md:flex-row justify-between text-sm py-2">
                 <div className="w-full md:w-1/3" >
                   <p className="font-mono">
@@ -212,7 +214,7 @@ const Navbar = () => {
           <span className="group-hover:text-yellow-500 transition duration-200 cursor-pointer uppercase text-sm">resources</span>
           <BsChevronDown className="group-hover:text-yellow-500 transition duration-200" />
           {activeLink === 2 && (
-            <div className="absolute top-[12rem] left-0 right-2 p-2">
+            <div className="absolute top-[12rem] left-0 right-2 z-50">
               <div className="max-w-7xl mx-auto h-fit md:h-48 border-b-2 border-[#222] bg-white flex flex-col md:flex-row justify-between text-sm py-2">
                 <div className="w-full md:w-1/3" >
                   <p className="font-mono">
@@ -265,7 +267,7 @@ const Navbar = () => {
           <span className="group-hover:text-yellow-500 transition duration-200 cursor-pointer uppercase text-sm">company</span>
           <BsChevronDown className="group-hover:text-yellow-500 transition duration-200" />
           {activeLink === 3 && (
-            <div className="absolute top-[12rem] left-0 right-2 p-2">
+            <div className="absolute top-[12rem] left-0 right-2 z-50">
               <div className="max-w-7xl mx-auto h-fit md:h-48 border-b-2 border-[#222] bg-white flex flex-col md:flex-row justify-between text-sm py-2">
                 <div className="w-full md:w-1/3" >
                   <p className="font-mono">
@@ -321,7 +323,7 @@ const Navbar = () => {
           <span className="group-hover:text-yellow-500 transition duration-200 cursor-pointer uppercase text-sm">partners</span>
           <BsChevronDown className="group-hover:text-yellow-500 transition duration-200" />
           {activeLink === 4 && (
-            <div className="absolute top-[12rem] left-0 right-2 p-2">
+            <div className="absolute top-[12rem] left-0 right-2 z-50">
               <div className="max-w-7xl mx-auto h-fit md:h-48 border-b-2 border-[#222] bg-white flex flex-col md:flex-row justify-between text-sm py-2">
                 <div className="w-full md:w-1/3" >
                   <p className="font-mono">

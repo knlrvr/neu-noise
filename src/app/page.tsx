@@ -13,7 +13,7 @@ import Video from '@/components/video'
 
 export default function Home() {
   return (
-    <div className="p-2 px-4">
+    <div className="p-2">
       <Navbar />
       <Hero />
       <Video />
