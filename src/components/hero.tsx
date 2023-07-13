@@ -18,7 +18,7 @@ const Hero = () => {
           </span>
           <BiRightArrowAlt 
             className="ml-4 group-hover:translate-x-2 transition duration-200" />
-          <div className="absolute bg-[#222] h-full w-[101%] -z-10 top-2.5 left-1"></div>
+          <div className="absolute bg-[#222] h-full w-[101%] -z-10 top-2.5 left-1 group-hover:translate-x-1 group-hover:translate-y-1 transition duration-200"></div>
         </Link>
       </div>
 
@@ -38,19 +38,19 @@ const Hero = () => {
       <div className="flex justify-evenly py-12">
         <Link 
           href="/"
-          className="border-2 border-[#222] flex items-center justify-center py-2 px-4 bg-yellow-400 relative">
+          className="border-2 border-[#222] flex items-center justify-center py-2 px-4 bg-yellow-400 relative group">
           <span className="text-center text-xs md:text-sm uppercase font-mono tracking-widest">
             Search For Free
           </span>
-          <div className="absolute bg-[#222] h-full w-[101%] -z-10 top-2 md:top-2.5 left-1 md:left-2"></div>
+          <div className="absolute bg-[#222] h-full w-[101%] -z-10 top-2 md:top-2.5 left-1 md:left-2 group-hover:translate-x-1 group-hover:translate-y-1 transition duration-200"></div>
         </Link>
         <Link 
           href="/"
-          className="border-2 border-[#222] flex items-center justify-center py-2 px-4 bg-red-500 group relative">
+          className="border-2 border-[#222] flex items-center justify-center py-2 px-4 bg-red-500 group relative group">
           <span className="text-center text-xs md:text-sm uppercase font-mono tracking-widest">
             Request A Demo
           </span>
-          <div className="absolute bg-[#222] h-full w-[101%] -z-10 top-2 md:top-2.5 left-1 md:left-2"></div>
+          <div className="absolute bg-[#222] h-full w-[101%] -z-10 top-2 md:top-2.5 left-1 md:left-2 group-hover:translate-x-1 group-hover:translate-y-1 transition duration-200"></div>
         </Link>
       </div>
     </div>
