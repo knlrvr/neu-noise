@@ -26,6 +26,9 @@ const Video = () => {
 
         <div className="absolute border-2 border-[#222] bg-red-500 w-10 h-10 rounded-full bottom-4 left-64 z-30"></div>
         <div className="absolute bg-[#222] w-10 h-10 rounded-full bottom-3 left-[16.2rem] z-20"></div>
+
+        <div className="absolute border-2 border-[#222] bg-yellow-500 w-20 h-20 rounded-full -bottom-10 right-36 z-30"></div>
+        <div className="absolute bg-[#222] w-20 h-20 rounded-full -bottom-12 right-[8.7rem] z-20"></div>
       </div>
     </div>
   )
