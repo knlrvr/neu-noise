@@ -4,7 +4,7 @@ import Image from 'next/image'
 const Video = () => {
   return (
     <div className="max-w-7xl mx-auto pb-16 pt-24">
-      <div className="border-2 border-[#222] bg-blue-500 mr-3 p-8 pt-32 md:pt-24 md:p-2 md:py-28 relative flex flex-col md:flex-row justify-center items-center gap-12">
+      <div className="border-2 border-[#222] bg-blue-500 mr-3 p-8 pt-32 pb-16 md:pt-24 md:p-2 md:py-28 relative flex flex-col md:flex-row justify-center items-center gap-12">
         <h3 className="text-4xl font-light">
           Solving internet <span className="font-semibold">noise</span>.
         </h3>
