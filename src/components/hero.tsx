@@ -38,7 +38,7 @@ const Hero = () => {
       <div className="flex justify-evenly py-12">
         <Link 
           href="/"
-          className="border-2 border-[#222] flex items-center justify-center py-2 px-4 bg-yellow-400 group relative">
+          className="border-2 border-[#222] flex items-center justify-center py-2 px-4 bg-yellow-400 relative">
           <span className="text-center text-xs md:text-sm uppercase font-mono tracking-widest">
             Search For Free
           </span>
