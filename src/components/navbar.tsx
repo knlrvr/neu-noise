@@ -39,29 +39,29 @@ const Navbar = () => {
 
       {/* site links */}
       <div className="mt-4 mb-2 flex justify-between border-t-2 border-b-2 border-[#222] font-light text-xs md:text-sm uppercase">
-        <Link href="/" className="w-full py-4 text-center hover:text-yellow-500 transition duration-200">
+        <Link href="/" className="w-full py-4 text-center hover:text-blue-500 transition duration-200">
           pricing
         </Link>
         <div className="border-r-2 border-[#222]"
         ></div>
-        <Link href="/#about" className="w-full py-4 text-center hover:text-yellow-500 transition duration-200">
+        <Link href="/#about" className="w-full py-4 text-center hover:text-blue-500 transition duration-200">
           blog
         </Link>
         <div className="border-r-2 border-[#222]"
         ></div>
 
         {/* sm */}
-        <Link href="/#more" className="hidden md:block w-full py-4 text-center hover:text-yellow-500 transition duration-200">
+        <Link href="/#more" className="hidden md:block w-full py-4 text-center hover:text-blue-500 transition duration-200">
           documentation
         </Link>
         {/* md + */}
-        <Link href="/#more" className="block md:hidden w-full py-4 text-center hover:text-yellow-500 transition duration-200">
+        <Link href="/#more" className="block md:hidden w-full py-4 text-center hover:text-blue-500 transition duration-200">
           docs
         </Link>
         
         <div className="border-r-2 border-[#222]"
         ></div>
-        <Link href="/#contact" className="w-full py-4 text-center hover:text-yellow-500 transition duration-200">
+        <Link href="/#contact" className="w-full py-4 text-center hover:text-blue-500 transition duration-200">
           log in
         </Link>
       </div>
@@ -75,8 +75,8 @@ const Navbar = () => {
           onMouseEnter={() => handleLinkHover(0)}
           onMouseLeave={handleLinkLeave}
           >
-          <span className="group-hover:text-yellow-500 transition duration-200 cursor-pointer uppercase text-sm">Product</span>
-          <BsChevronDown className="group-hover:text-yellow-500 transition duration-200" />
+          <span className="group-hover:text-blue-500 transition duration-200 cursor-pointer uppercase text-sm">Product</span>
+          <BsChevronDown className="group-hover:text-blue-500 transition duration-200" />
           {activeLink === 0 && (
             <div className="absolute top-[12rem] left-0 right-2 z-50">
               <div className="max-w-7xl mx-auto h-fit md:h-48 border-b-2 border-[#222] bg-white flex flex-col md:flex-row justify-between text-sm py-2">
@@ -89,7 +89,7 @@ const Navbar = () => {
                 <div className="flex flex-col items-start justify-start">
                   <Link
                     href="/"
-                    className="uppercase my-8 md:my-0 md:mb-4 hover:text-yellow-500 transition duration-200"  
+                    className="uppercase my-8 md:my-0 md:mb-4 hover:text-blue-500 transition duration-200"  
                   >
                     product overview
                   </Link>
@@ -97,13 +97,13 @@ const Navbar = () => {
                     <div className="flex flex-col space-y-2 text-xs">
                       <span className="font-mono text-neutral-500">Explore</span>
                       <ul className="border-t-2 border-[#222] w-full uppercase space-y-2 pt-2">
-                        <li className="hover:text-yellow-500 transition duration-200 cursor-pointer">
+                        <li className="hover:text-blue-500 transition duration-200 cursor-pointer">
                           Search
                         </li>
-                        <li className="hover:text-yellow-500 transition duration-200 cursor-pointer">
+                        <li className="hover:text-blue-500 transition duration-200 cursor-pointer">
                           IP Similarity
                         </li>
-                        <li className="hover:text-yellow-500 transition duration-200 cursor-pointer">
+                        <li className="hover:text-blue-500 transition duration-200 cursor-pointer">
                           Trends
                         </li>
                       </ul>
@@ -111,13 +111,13 @@ const Navbar = () => {
                     <div className="flex flex-col space-y-2 text-xs">
                       <span className="font-mono text-neutral-500">Investigate</span>
                       <ul className="border-t-2 border-[#222] w-full uppercase space-y-2 pt-2">
-                        <li className="hover:text-yellow-500 transition duration-200 cursor-pointer">
+                        <li className="hover:text-blue-500 transition duration-200 cursor-pointer">
                           IP Timeline
                         </li>
-                        <li className="hover:text-yellow-500 transition duration-200 cursor-pointer">
+                        <li className="hover:text-blue-500 transition duration-200 cursor-pointer">
                           IP Details
                         </li>
-                        <li className="hover:text-yellow-500 transition duration-200 cursor-pointer">
+                        <li className="hover:text-blue-500 transition duration-200 cursor-pointer">
                           Tag Details
                         </li>
                       </ul>
@@ -125,10 +125,10 @@ const Navbar = () => {
                     <div className="flex flex-col space-y-2 text-xs">
                       <span className="font-mono text-neutral-500">Act</span>
                       <ul className="border-t-2 border-[#222] w-full uppercase space-y-2 pt-2">
-                        <li className="hover:text-yellow-500 transition duration-200 cursor-pointer">
+                        <li className="hover:text-blue-500 transition duration-200 cursor-pointer">
                           Blocklists
                         </li>
-                        <li className="hover:text-yellow-500 transition duration-200 cursor-pointer">
+                        <li className="hover:text-blue-500 transition duration-200 cursor-pointer">
                           Alerts
                         </li>
                       </ul>
@@ -136,10 +136,10 @@ const Navbar = () => {
                     <div className="flex flex-col space-y-2 text-xs">
                       <span className="font-mono text-neutral-500">Integrate</span>
                       <ul className="border-t-2 border-[#222] w-full uppercase space-y-2 pt-2">
-                        <li className="hover:text-yellow-500 transition duration-200 cursor-pointer">
+                        <li className="hover:text-blue-500 transition duration-200 cursor-pointer">
                           Integrations
                         </li>
-                        <li className="hover:text-yellow-500 transition duration-200 cursor-pointer">
+                        <li className="hover:text-blue-500 transition duration-200 cursor-pointer">
                           API
                         </li>
                       </ul>
@@ -157,8 +157,8 @@ const Navbar = () => {
           onMouseEnter={() => handleLinkHover(1)}
           onMouseLeave={handleLinkLeave}
           >
-          <span className="group-hover:text-yellow-500 transition duration-200 cursor-pointer uppercase text-sm">solutions</span>
-          <BsChevronDown className="group-hover:text-yellow-500 transition duration-200" />
+          <span className="group-hover:text-blue-500 transition duration-200 cursor-pointer uppercase text-sm">solutions</span>
+          <BsChevronDown className="group-hover:text-blue-500 transition duration-200" />
           {activeLink === 1 && (
             <div className="absolute top-[12rem] left-0 right-2 z-50">
               <div className="max-w-7xl mx-auto h-fit md:h-48 border-b-2 border-[#222] bg-white flex flex-col md:flex-row justify-between text-sm py-2">
@@ -173,13 +173,13 @@ const Navbar = () => {
                     <div className="flex flex-col space-y-2 text-xs">
                       <span className="font-mono text-neutral-500">Verticals</span>
                       <ul className="border-t-2 border-[#222] w-full uppercase space-y-2 pt-2">
-                        <li className="hover:text-yellow-500 transition duration-200 cursor-pointer">
+                        <li className="hover:text-blue-500 transition duration-200 cursor-pointer">
                           Healthcare
                         </li>
-                        <li className="hover:text-yellow-500 transition duration-200 cursor-pointer">
+                        <li className="hover:text-blue-500 transition duration-200 cursor-pointer">
                           Financial Services
                         </li>
-                        <li className="hover:text-yellow-500 transition duration-200 cursor-pointer">
+                        <li className="hover:text-blue-500 transition duration-200 cursor-pointer">
                           Government
                         </li>
                       </ul>
@@ -187,13 +187,13 @@ const Navbar = () => {
                     <div className="flex flex-col space-y-2 text-xs">
                       <span className="font-mono text-neutral-500">Use cases</span>
                       <ul className="border-t-2 border-[#222] w-full uppercase space-y-2 pt-2">
-                        <li className="hover:text-yellow-500 transition duration-200 cursor-pointer">
+                        <li className="hover:text-blue-500 transition duration-200 cursor-pointer">
                           Maximize SOC Efficiency
                         </li>
-                        <li className="hover:text-yellow-500 transition duration-200 cursor-pointer">
+                        <li className="hover:text-blue-500 transition duration-200 cursor-pointer">
                           Mass Exploitation Defense
                         </li>
-                        <li className="hover:text-yellow-500 transition duration-200 cursor-pointer">
+                        <li className="hover:text-blue-500 transition duration-200 cursor-pointer">
                           Contextualized Threat Hunting
                         </li>
                       </ul>
@@ -211,8 +211,8 @@ const Navbar = () => {
           onMouseEnter={() => handleLinkHover(2)}
           onMouseLeave={handleLinkLeave}
           >
-          <span className="group-hover:text-yellow-500 transition duration-200 cursor-pointer uppercase text-sm">resources</span>
-          <BsChevronDown className="group-hover:text-yellow-500 transition duration-200" />
+          <span className="group-hover:text-blue-500 transition duration-200 cursor-pointer uppercase text-sm">resources</span>
+          <BsChevronDown className="group-hover:text-blue-500 transition duration-200" />
           {activeLink === 2 && (
             <div className="absolute top-[12rem] left-0 right-2 z-50">
               <div className="max-w-7xl mx-auto h-fit md:h-48 border-b-2 border-[#222] bg-white flex flex-col md:flex-row justify-between text-sm py-2">
@@ -226,10 +226,10 @@ const Navbar = () => {
                     <div className="flex flex-col space-y-2 text-xs">
                       <span className="font-mono text-neutral-500">Featured Content</span>
                       <ul className="border-t-2 border-[#222] w-full uppercase space-y-2 pt-2">
-                        <li className="hover:text-yellow-500 transition duration-200 cursor-pointer">
+                        <li className="hover:text-blue-500 transition duration-200 cursor-pointer">
                           How I Use GreyNoise (video)
                         </li>
-                        <li className="hover:text-yellow-500 transition duration-200 cursor-pointer">
+                        <li className="hover:text-blue-500 transition duration-200 cursor-pointer">
                           Cyberwire: Hacking Humans #199 (podcast)
                         </li>
                       </ul>
@@ -237,16 +237,16 @@ const Navbar = () => {
                     <div className="flex flex-col space-y-2 text-xs">
                       <span className="font-mono text-neutral-500">GreyNoise Resources</span>
                       <ul className="border-t-2 border-[#222] w-full uppercase space-y-2 pt-2">
-                        <li className="hover:text-yellow-500 transition duration-200 cursor-pointer">
+                        <li className="hover:text-blue-500 transition duration-200 cursor-pointer">
                           Resources Hub
                         </li>
-                        <li className="hover:text-yellow-500 transition duration-200 cursor-pointer">
+                        <li className="hover:text-blue-500 transition duration-200 cursor-pointer">
                           ROI Calculator
                         </li>
-                        <li className="hover:text-yellow-500 transition duration-200 cursor-pointer">
+                        <li className="hover:text-blue-500 transition duration-200 cursor-pointer">
                           Community
                         </li>
-                        <li className="hover:text-yellow-500 transition duration-200 cursor-pointer">
+                        <li className="hover:text-blue-500 transition duration-200 cursor-pointer">
                           Clossary of Terms
                         </li>
                       </ul>
@@ -264,8 +264,8 @@ const Navbar = () => {
           onMouseEnter={() => handleLinkHover(3)}
           onMouseLeave={handleLinkLeave}
           >
-          <span className="group-hover:text-yellow-500 transition duration-200 cursor-pointer uppercase text-sm">company</span>
-          <BsChevronDown className="group-hover:text-yellow-500 transition duration-200" />
+          <span className="group-hover:text-blue-500 transition duration-200 cursor-pointer uppercase text-sm">company</span>
+          <BsChevronDown className="group-hover:text-blue-500 transition duration-200" />
           {activeLink === 3 && (
             <div className="absolute top-[12rem] left-0 right-2 z-50">
               <div className="max-w-7xl mx-auto h-fit md:h-48 border-b-2 border-[#222] bg-white flex flex-col md:flex-row justify-between text-sm py-2">
@@ -280,29 +280,29 @@ const Navbar = () => {
                     <div className="flex flex-col space-y-2 text-xs">
                       <span className="font-mono text-neutral-500">Press Room</span>
                       <ul className="border-t-2 border-[#222] w-full uppercase space-y-2 pt-2">
-                        <li className="hover:text-yellow-500 transition duration-200 cursor-pointer">
+                        <li className="hover:text-blue-500 transition duration-200 cursor-pointer">
                           GreyNoise In The News
                         </li>
-                        <li className="hover:text-yellow-500 transition duration-200 cursor-pointer">
+                        <li className="hover:text-blue-500 transition duration-200 cursor-pointer">
                           Press Releases
                         </li>
-                        <li className="hover:text-yellow-500 transition duration-200 cursor-pointer">
+                        <li className="hover:text-blue-500 transition duration-200 cursor-pointer">
                           GreyNoise Community Love
                         </li>
                       </ul>
                     </div>
                     <div className="flex flex-col space-y-2 text-xs">
                       <ul className=" w-full uppercase space-y-2 pt-[0.6rem]">
-                        <li className="hover:text-yellow-500 transition duration-200 cursor-pointer">
+                        <li className="hover:text-blue-500 transition duration-200 cursor-pointer">
                           Events
                         </li>
-                        <li className="hover:text-yellow-500 transition duration-200 cursor-pointer">
+                        <li className="hover:text-blue-500 transition duration-200 cursor-pointer">
                           Request GreyNoise Swag
                         </li>
-                        <li className="hover:text-yellow-500 transition duration-200 cursor-pointer">
+                        <li className="hover:text-blue-500 transition duration-200 cursor-pointer">
                           Careers at GreyNoise
                         </li>
-                        <li className="hover:text-yellow-500 transition duration-200 cursor-pointer">
+                        <li className="hover:text-blue-500 transition duration-200 cursor-pointer">
                           Contact Us
                         </li>
                       </ul>
@@ -320,8 +320,8 @@ const Navbar = () => {
           onMouseEnter={() => handleLinkHover(4)}
           onMouseLeave={handleLinkLeave}
           >
-          <span className="group-hover:text-yellow-500 transition duration-200 cursor-pointer uppercase text-sm">partners</span>
-          <BsChevronDown className="group-hover:text-yellow-500 transition duration-200" />
+          <span className="group-hover:text-blue-500 transition duration-200 cursor-pointer uppercase text-sm">partners</span>
+          <BsChevronDown className="group-hover:text-blue-500 transition duration-200" />
           {activeLink === 4 && (
             <div className="absolute top-[12rem] left-0 right-2 z-50">
               <div className="max-w-7xl mx-auto h-fit md:h-48 border-b-2 border-[#222] bg-white flex flex-col md:flex-row justify-between text-sm py-2">
@@ -335,16 +335,16 @@ const Navbar = () => {
                   <div className="grid grid-cols-1 gap-8 w-full mb-6 mt-8 md:mt-0">
                     <div className="flex flex-col space-y-2 text-xs">
                       <ul className="w-full uppercase space-y-2 pt-2">
-                        <li className="hover:text-yellow-500 transition duration-200 cursor-pointer">
+                        <li className="hover:text-blue-500 transition duration-200 cursor-pointer">
                           GreyNoise Partners
                         </li>
-                        <li className="hover:text-yellow-500 transition duration-200 cursor-pointer">
+                        <li className="hover:text-blue-500 transition duration-200 cursor-pointer">
                           Reseller Partners
                         </li>
-                        <li className="hover:text-yellow-500 transition duration-200 cursor-pointer">
+                        <li className="hover:text-blue-500 transition duration-200 cursor-pointer">
                           Technical Alliances
                         </li>
-                        <li className="hover:text-yellow-500 transition duration-200 cursor-pointer">
+                        <li className="hover:text-blue-500 transition duration-200 cursor-pointer">
                           OEM Partners
                         </li>
                       </ul>
