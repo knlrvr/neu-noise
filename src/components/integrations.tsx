@@ -12,7 +12,7 @@ const Integrations = () => {
         <div className="flex items-end space-x-4">
           <span className="text-4xl font-light">Integrations</span>
           <div className="pb-2 flex items-center space-x-2 group cursor-pointer">
-            <p className="font-mono text-sm underline underline-offset-4 decoration-2 decoration-yellow-500">See All</p>
+            <p className="font-mono text-sm underline underline-offset-4 decoration-2 decoration-orange-300">See All</p>
             <BiRightArrowAlt 
               className="group-hover:translate-x-1 transition duration-200" />
           </div>
@@ -31,7 +31,7 @@ const Integrations = () => {
 
       <div className="grid grid-cols-1 md:grid-cols-2 border-t-2 border-b-2 border-[#222]">
         <div className="border-b-2 md:border-b-0 md:border-r-2 border-[#222] p-12 flex flex-col">
-          <span className="text-yellow-500 uppercase text-sm font-light">case study</span>
+          <span className="text-orange-300 uppercase text-sm font-light">case study</span>
           <p className="py-4 text-xl font-light tracking-widest">
             Automating with Splunk.
           </p>
@@ -40,13 +40,13 @@ const Integrations = () => {
             Splunk ES and Phantom environments.
           </p>
           <div className="flex items-center space-x-2 group cursor-pointer pt-4 md:pt-8 w-24">
-            <span className="text-xs underline underline-offset-4 decoration-2 decoration-yellow-500">Read More</span>
+            <span className="text-xs underline underline-offset-4 decoration-2 decoration-orange-300">Read More</span>
             <BiRightArrowAlt 
               className="group-hover:translate-x-1 transition duration-200" />
           </div>
         </div>
         <div className="p-12">
-          <span className="text-yellow-500 uppercase text-sm font-light">case study</span>
+          <span className="text-orange-300 uppercase text-sm font-light">case study</span>
           <p className="py-4 text-xl font-light tracking-widest">
             Automating with XSOAR.
           </p>
@@ -55,7 +55,7 @@ const Integrations = () => {
             uses GreyNoise to enrich their XSOAR alerts and reduce noise.
           </p>
           <div className="flex items-center space-x-2 group cursor-pointer pt-4 md:pt-8 w-24">
-            <span className="text-xs underline underline-offset-4 decoration-2 decoration-yellow-500">Read More</span>
+            <span className="text-xs underline underline-offset-4 decoration-2 decoration-orange-300">Read More</span>
             <BiRightArrowAlt 
               className="group-hover:translate-x-1 transition duration-200" />
           </div>
