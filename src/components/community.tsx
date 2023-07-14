@@ -18,7 +18,7 @@ const Community = () => {
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mr-2">
-        <div className="w-full h-fit border-2 border-[#222] p-8 flex flex-col justify-between relative bg-white">
+        <div className="w-full h-fit border-2 border-[#222] p-8 flex flex-col justify-between relative bg-blue-500">
           <BiSolidQuoteAltLeft 
             className="text-2xl" />
           <p className="font-mono py-6 text-xs">
@@ -32,7 +32,7 @@ const Community = () => {
           <div className="absolute top-3 left-3 w-full h-full bg-[#222] -z-10"></div>
         </div>
 
-        <div className="w-full h-full border-2 border-[#222] p-8 flex flex-col justify-between relative bg-white">
+        <div className="w-full h-full border-2 border-[#222] p-8 flex flex-col justify-between relative bg-green-500">
           <BiSolidQuoteAltLeft 
             className="text-2xl" />
           <p className="font-mono py-6 text-xs">
@@ -45,7 +45,7 @@ const Community = () => {
           <div className="absolute top-3 left-3 w-full h-full bg-[#222] -z-10"></div>
         </div>
 
-        <div className="w-full h-full border-2 border-[#222] p-8 flex flex-col justify-between relative bg-white">
+        <div className="w-full h-full border-2 border-[#222] p-8 flex flex-col justify-between relative bg-orange-500">
           <BiSolidQuoteAltLeft 
             className="text-2xl" />
           <p className="font-mono py-6 text-xs">
