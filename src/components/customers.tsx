@@ -9,7 +9,7 @@ import {
 } from 'react-icons/bi'
 
 const Customers: React.FC = () => {
-  const [currentCard, setCurrentCard] = useState(1);
+  const [currentCard, setCurrentCard] = useState(0);
   const customersData = [
     {
       customer: 'Hurricane Labs',

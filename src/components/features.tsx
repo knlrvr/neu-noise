@@ -141,7 +141,7 @@ const Features = () => {
         </div>
       </div>
 
-      <div className="h-fit w-full bg-green-500 flex flex-col p-6 border-t-2 border-l-2 border-r-2 border-[#222]">
+      <div className="h-fit w-full flex flex-col p-6 py-12 border-t-2 border-[#222]">
         <div className="flex justify-between items-center text-4xl md:text-6xl font-semibold">
           <p>G</p>
           <p>R</p>

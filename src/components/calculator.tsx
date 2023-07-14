@@ -6,7 +6,7 @@ const Calculator = () => {
     <div className="max-w-7xl mx-auto">
       <div className="flex flex-col justify-center items-center py-16">
         <span className="text-xs uppercase tracking-widest">ROI Calculator</span>
-        <p className="font-semibold text-3xl py-4">How much could you save?</p>
+        <p className="font-semibold text-3xl py-4 text-center">How much could you save?</p>
         <p className="font-mono text-sm w-1/2 text-center pb-6">
           Check out our ROI Calculator to see how much your organization could
           save by using GreyNoise.
