@@ -13,7 +13,7 @@ const Hero = () => {
         <Link 
           href="/"
           className="border-2 border-[#222] flex items-center justify-center py-2 px-4 bg-orange-300 group relative">
-          <span className="text-center text-sm">
+          <span className="text-center text-xs font-mono">
             Our 2022 Mass Exploitation <br className="block md:hidden" /> Retrospective is out now 
           </span>
           <BiRightArrowAlt 
