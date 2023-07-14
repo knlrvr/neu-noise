@@ -12,7 +12,7 @@ const Hero = () => {
       <div className="py-2 md:py-6 flex justify-center">
         <Link 
           href="/"
-          className="border-2 border-[#222] flex items-center justify-center py-2 px-4 bg-green-400 group relative">
+          className="border-2 border-[#222] flex items-center justify-center py-2 px-4 bg-orange-300 group relative">
           <span className="text-center text-sm">
             Our 2022 Mass Exploitation <br className="block md:hidden" /> Retrospective is out now 
           </span>
@@ -38,7 +38,7 @@ const Hero = () => {
       <div className="flex justify-evenly py-12">
         <Link 
           href="/"
-          className="border-2 border-[#222] flex items-center justify-center py-2 px-4 bg-yellow-400 relative group">
+          className="border-2 border-[#222] flex items-center justify-center py-2 px-4 bg-blue-200 relative group">
           <span className="text-center text-xs md:text-sm uppercase font-mono tracking-widest">
             Search For Free
           </span>
@@ -46,7 +46,7 @@ const Hero = () => {
         </Link>
         <Link 
           href="/"
-          className="border-2 border-[#222] flex items-center justify-center py-2 px-4 bg-red-500 group relative group">
+          className="border-2 border-[#222] flex items-center justify-center py-2 px-4 bg-blue-500 group relative group">
           <span className="text-center text-xs md:text-sm uppercase font-mono tracking-widest">
             Request A Demo
           </span>

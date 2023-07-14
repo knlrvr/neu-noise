@@ -15,25 +15,25 @@ const Customers: React.FC = () => {
       customer: 'Hurricane Labs',
       quote: 'Using GreyNoise Intelligence helps the Hurricane Labs team eliminate background noise and focus on the most actionable and relevant alerts for our customers. Rather than presenting our analysts with even more data to investigate, GreyNoise decreases the volume of alerts that are triggered by 25% - which makes for a happier and more effective SOC team.',
       title: 'Director of Managed Services',
-      backgroundColor: '#22c55e',
+      backgroundColor: '#bfdbfe',
     },
     {
       customer: 'Expel',
       quote: 'RIOT arms our analysts with a simple, colorized tool for surfacing enrichment details so the SOC can quickly spot and dispatch non-threat activity.',
       title: 'Ian Cooper & Evan Richard, Detection And Response Team',
-      backgroundColor: '#f97316',
+      backgroundColor: '#3b82f6',
     },
     {
       customer: 'Anonymous',
       quote: 'GreyNoise has proved to be a high-bang-for-the-buck data source for alert triage. The team is motivated, innovative, and great to work with.',
       title: 'Anonymous, Higher Education Center',
-      backgroundColor: '#eab308',
+      backgroundColor: '#fb923c',
     },
     {
       customer: 'Anonymous',
       quote: 'GreyNoise helps our users reduce time to remediation by quickly pointing out noisy activity related to scanners botnets, or harmless business services - saving the analysts from chasing irrelevant deadends and leaving more time to investigate true threats.',
       title: 'Anonymous, Analytics Organization',
-      backgroundColor: '#3b82f6',
+      backgroundColor: '#fed7aa',
     },
   ];
 

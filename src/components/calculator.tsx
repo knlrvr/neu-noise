@@ -13,7 +13,7 @@ const Calculator = () => {
         </p>
         <Link 
           href="/"
-          className="border-2 border-[#222] flex items-center justify-center py-2 px-4 bg-yellow-400 relative group">
+          className="border-2 border-[#222] flex items-center justify-center py-2 px-4 bg-orange-300 relative group">
           <span className="text-center text-xs md:text-sm uppercase font-mono tracking-widest">
             Discover Your Savings
           </span>
