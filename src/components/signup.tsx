@@ -4,7 +4,7 @@ const SignUp = () => {
   return (
     <div className="max-w-7xl mx-auto py-24">
       <div className="flex flex-col items-center justify-center text-center">
-        <p className="pt-8 max-w-4xl mx-auto text-xl font-light">
+        <p className="pt-8 max-w-4xl mx-auto text-3xl font-light">
           <span className="font-semibold">Sign up</span> or <span className="font-semibold">contact us</span> &mdash; start using GreyNoise today.
         </p>
       </div>
