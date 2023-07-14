@@ -39,7 +39,7 @@ const Integrations = () => {
             Learn how Hurricane Labs reduces noisy alerts by leveraging GreyNoise&apos;s data in their
             Splunk ES and Phantom environments.
           </p>
-          <div className="flex items-center space-x-2 group cursor-pointer pt-4 md:pt-8">
+          <div className="flex items-center space-x-2 group cursor-pointer pt-4 md:pt-8 w-24">
             <span className="text-xs underline underline-offset-4 decoration-2 decoration-yellow-500">Read More</span>
             <BiRightArrowAlt 
               className="group-hover:translate-x-1 transition duration-200" />
@@ -54,7 +54,7 @@ const Integrations = () => {
             Learn how the Incident Response and Operations team at a large hospitality company 
             uses GreyNoise to enrich their XSOAR alerts and reduce noise.
           </p>
-          <div className="flex items-center space-x-2 group cursor-pointer pt-4 md:pt-8">
+          <div className="flex items-center space-x-2 group cursor-pointer pt-4 md:pt-8 w-24">
             <span className="text-xs underline underline-offset-4 decoration-2 decoration-yellow-500">Read More</span>
             <BiRightArrowAlt 
               className="group-hover:translate-x-1 transition duration-200" />
