@@ -25,7 +25,21 @@ const Features = () => {
             <AiOutlineControl 
               className="text-6xl" />
           </div>
-          <div className="flex flex-col space-y-2 ml-4 mb-32">
+
+          {/* sm */}
+          <div className="flex md:hidden flex-col space-y-2 ml-4 mb-32">
+            <p className="flex items-start text-sm font-mono">
+              <span className="inline-flex"><BsDot className="text-lg" /></span>
+              Classification of IP intent reduces time to triage. 
+            </p>
+            <p className="flex items-start text-sm font-mono">
+              <span className="inline-flex"><BsDot className="text-lg" /></span>
+              Detailed context on IPs for deeper research.
+            </p>
+          </div>
+
+          {/* md + */}
+          <div className="hidden md:flex flex-col space-y-2 ml-4 mb-32">
             <p className="flex items-start text-sm font-mono">
               <span className="inline-flex"><BsDot className="text-lg" /></span>
               Deprioritize events from benign IPs and common business services.
@@ -39,11 +53,12 @@ const Features = () => {
               Automate workflows and filter noisy alerts across SIEM, SOAR, TIP and other tools.
             </p>
           </div>
-          <div className="absolute bottom-2 left-4 flex space-x-4 items-start pt-12 pb-4 text-xs font-mono">
-            <span>20% increased capacity in the <br />SOC.</span>
+
+          <div className="absolute bottom-2 left-4 flex space-x-4 items-start pt-12 pb-4 text-xs font-mono w-1/2">
+            <span>20% increased capacity in the SOC.</span>
           </div>
 
-          <div className="cursor-pointer group absolute border-2 border-[#222] h-12 w-12 rounded-full -bottom-6 right-3 bg-white flex justify-center items-center">
+          <div className="cursor-pointer group absolute border-2 border-[#222] h-12 w-12 rounded-full bottom-4 right-2 bg-white flex justify-center items-center">
             <BiRightArrowAlt 
               className="text-2xl group-hover:-rotate-45 transition duration-200" />
           </div>
@@ -57,25 +72,40 @@ const Features = () => {
             <BiRadar 
               className="text-6xl" />
           </div>
-          <div className="flex flex-col space-y-2 ml-4 mb-32">
+
+          {/* sm */}
+          <div className="flex md:hidden flex-col space-y-2 ml-4 mb-32">
             <p className="flex items-start text-sm font-mono">
               <span className="inline-flex"><BsDot className="text-lg" /></span>
-              Deprioritize events from benign IPs and common business services.
+              Visibility into mass exploit activity related to your attack surface.
             </p>
             <p className="flex items-start text-sm font-mono">
               <span className="inline-flex"><BsDot className="text-lg" /></span>
-              Classification of IP intent reduces time to triage.
+              IP blocklists during windows of exposure to prioritize patching.
             </p>
-            <p className="flex items-start text-sm font-mono">
-              <span className="inline-flex"><BsDot className="text-lg" /></span>
-              Automate workflows and filter noisy alerts across SIEM, SOAR, TIP and other tools.
-            </p>
-          </div>
-          <div className="absolute bottom-2 left-4 flex space-x-4 pt-12 pb-4 text-xs font-mono">
-            <span>Optimize patching & protect during <br /> &quot;window of exposure.&quot;</span>
           </div>
 
-          <div className="cursor-pointer group absolute border-2 border-[#222] h-12 w-12 rounded-full -bottom-6 right-3 bg-white flex justify-center items-center">
+          {/* md + */}
+          <div className="hidden md:flex flex-col space-y-2 ml-4 mb-32">
+            <p className="flex items-start text-sm font-mono">
+              <span className="inline-flex"><BsDot className="text-lg" /></span>
+              Visibility into mass exploit activity related to your attack surface.
+            </p>
+            <p className="flex items-start text-sm font-mono">
+              <span className="inline-flex"><BsDot className="text-lg" /></span>
+              IP blocklists during windows of exposure to prioritize patching.
+            </p>
+            <p className="flex items-start text-sm font-mono">
+              <span className="inline-flex"><BsDot className="text-lg" /></span>
+              Block mass exploit attack IPs at your perimeter to give yourself breathing space
+              to patch.
+            </p>
+          </div>
+          <div className="absolute bottom-2 left-4 flex space-x-4 pt-12 pb-4 text-xs font-mono w-1/2">
+            <span>Optimize patching & protect during &quot;window of exposure.&quot;</span>
+          </div>
+
+          <div className="cursor-pointer group absolute border-2 border-[#222] h-12 w-12 rounded-full bottom-4 right-2 bg-white flex justify-center items-center">
             <BiRightArrowAlt 
               className="text-2xl group-hover:-rotate-45 transition duration-200" />
           </div>        
@@ -100,27 +130,32 @@ const Features = () => {
               Bolster and automate existing cyber threat investigations with IP metadata.
             </p>
           </div>
-          <div className="absolute bottom-2 left-4 flex space-x-4 pt-14 lg:pt-[6.2rem] xl:pt-[6.2rem] pb-4 text-xs font-mono">
-            <span>Gain valuable insight into emerging <br /> threats on the internet.</span>
+          <div className="absolute bottom-2 left-4 flex space-x-4 pt-14 lg:pt-[6.2rem] xl:pt-[6.2rem] pb-4 text-xs font-mono w-1/2">
+            <span>Gain valuable insight into emerging threats on the internet.</span>
           </div>
 
-          <div className="cursor-pointer group absolute border-2 border-[#222] h-12 w-12 rounded-full -bottom-6 right-3 bg-white flex justify-center items-center">
+          <div className="cursor-pointer group absolute border-2 border-[#222] h-12 w-12 rounded-full bottom-4 right-2 bg-white flex justify-center items-center">
             <BiRightArrowAlt 
               className="text-2xl group-hover:-rotate-45 transition duration-200" />
           </div>        
         </div>
       </div>
 
-      <div className="h-28 w-full bg-green-500 flex justify-between items-center text-6xl font-semibold px-2">
-        <p>G</p>
-        <p>R</p>
-        <p>E</p>
-        <p>Y</p>
-        <p>N</p>
-        <p>O</p>
-        <p>I</p>
-        <p>S</p>
-        <p>E</p>
+      <div className="h-fit w-full bg-green-500 flex flex-col p-6 border-l-2 border-r-2 border-[#222]">
+        <div className="flex justify-between items-center text-4xl md:text-6xl font-semibold">
+          <p>G</p>
+          <p>R</p>
+          <p>E</p>
+          <p>Y</p>
+          <p>N</p>
+          <p>O</p>
+          <p>I</p>
+          <p>S</p>
+          <p>E</p>
+        </div>
+        <div className="text-center font-mono text-xs pt-6">
+          <p>Our insight is delivered through our <em>API</em>, <em>integrations</em> and <em>Visualizer</em>.</p>
+        </div>
       </div>
 
     </div>
