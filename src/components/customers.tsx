@@ -48,6 +48,7 @@ const Customers: React.FC = () => {
 
   return (
     <div className="max-w-7xl mx-auto py-16">
+      <span className="text-xs uppercase font-semibold">Customer love &nbsp;&mdash;</span>
       <div className="border-2 border-[#222] ml-5 mr-6 relative h-[475px] md:h-72">
         <CustomerCard
           customer={customersData[currentCard].customer}
@@ -55,16 +56,15 @@ const Customers: React.FC = () => {
           title={customersData[currentCard].title}
           backgroundColor={customersData[currentCard].backgroundColor}
         />
-
         <button onClick={navigatePrev}
-          className="absolute top-1/2 -left-6 bg-white border-2 border-[#222] h-12 w-12 rounded-full flex justify-center items-center text-2xl z-50">
-          <BiLeftArrowAlt />
+          className="absolute top-1/2 -left-6 bg-white border-2 border-[#222] h-12 w-12 rounded-full flex justify-center items-center text-2xl z-50 group">
+          <BiLeftArrowAlt className="group-hover:-translate-x-1 transition duration-200" />
         </button>
         <div className="absolute top-[51%] -left-5 bg-[#222] h-12 w-12 rounded-full z-10"></div>
         
         <button onClick={navigateNext}
-          className="absolute top-1/2 -right-6 bg-white border-2 border-[#222] h-12 w-12 rounded-full flex justify-center items-center text-2xl z-50">
-          <BiRightArrowAlt />
+          className="absolute top-1/2 -right-6 bg-white border-2 border-[#222] h-12 w-12 rounded-full flex justify-center items-center text-2xl z-50 group">
+          <BiRightArrowAlt className="group-hover:translate-x-1 transition duration-200" />
         </button>
         <div className="absolute top-[51%] -right-7 bg-[#222] h-12 w-12 rounded-full z-10"></div>
 
