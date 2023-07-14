@@ -21,7 +21,7 @@ export default function Home() {
       <Insight />
       <Services />
       <Integrations />
-      <Customers />
+      <Customers/>
       <Calculator />
       <Community />
       <SignUp />
