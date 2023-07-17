@@ -15,7 +15,7 @@ const Insight = () => {
             Our sensor network aggregates mass internet scan activity and attack traffic
             while our research team aggregates common business applications.
           </p>
-          <div className="absolute top-[92%] right-3/5 md:top-1/2 md:-right-6 bg-blue-400 rounded-full h-12 w-12 border-2 border-[#222] flex justify-center items-center text-2xl">
+          <div className="absolute top-[92%] right-3/5 md:top-1/2 md:-right-6 bg-blue-200 rounded-full h-12 w-12 border-2 border-[#222] flex justify-center items-center text-2xl">
             <BiRightArrowAlt 
               className="rotate-90 md:rotate-0" />
           </div>
