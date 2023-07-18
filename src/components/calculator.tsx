@@ -12,7 +12,7 @@ const Calculator = () => {
           save by using GreyNoise.
         </p>
         <div
-          className="border-2 border-[#222] flex items-center justify-center py-2 px-4 bg-orange-300 relative group">
+          className="border-2 border-[#222] flex items-center justify-center py-2 px-4 bg-orange-300 relative group cursor-pointer">
           <span className="text-center text-xs md:text-sm uppercase font-mono tracking-widest">
             Discover Your Savings
           </span>
