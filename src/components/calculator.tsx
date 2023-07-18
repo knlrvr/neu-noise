@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 const Calculator = () => {
   return (
-    <div className="max-w-7xl mx-auto">
+    <div className="max-w-7xl mx-auto py-24">
       <div className="flex flex-col justify-center items-center py-16">
         <span className="text-xs uppercase tracking-widest">ROI Calculator</span>
         <p className="font-semibold text-3xl py-4 text-center">How much could you save?</p>

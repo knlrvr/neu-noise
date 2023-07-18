@@ -47,7 +47,7 @@ const Customers: React.FC = () => {
   };
 
   return (
-    <div className="max-w-7xl mx-auto py-16">
+    <div className="max-w-7xl mx-auto py-16 pt-24">
       <span className="text-xs uppercase font-semibold">Customer love &nbsp;&mdash;</span>
       <div className="border-2 border-[#222] ml-5 mr-6 relative h-[475px] md:h-72">
         <CustomerCard

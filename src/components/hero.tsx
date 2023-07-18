@@ -7,9 +7,9 @@ import {
 
 const Hero = () => {
   return (
-    <div className="max-w-7xl mx-auto pb-16">
+    <div className="max-w-7xl mx-auto pb-16 pt-12">
 
-      <div className="py-2 md:py-6 flex justify-center">
+      <div className="pt-4 md:pt-12 flex justify-center">
         <Link 
           href="/"
           className="border-2 border-[#222] flex items-center justify-center py-2 px-4 bg-orange-300 group relative">
@@ -23,7 +23,7 @@ const Hero = () => {
       </div>
 
       <div className="flex flex-col items-center justify-center text-center pt-6">
-        <h2 className="text-5xl md:text-8xl font-thin">
+        <h2 className="text-5xl md:text-8xl font-thin py-8 md:py-12">
           Turning internet
           <span className="font-light"> noise </span>
           into

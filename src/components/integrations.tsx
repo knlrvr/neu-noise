@@ -7,7 +7,7 @@ import {
 
 const Integrations = () => {
   return (
-    <div className="max-w-7xl mx-auto">
+    <div className="max-w-7xl mx-auto py-24">
       <div className="flex flex-col items-center py-16">
         <div className="flex items-end space-x-4">
           <span className="text-4xl font-light">Integrations</span>

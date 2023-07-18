@@ -15,7 +15,7 @@ import {
 
 const Features = () => {
   return (
-    <div className="max-w-7xl mx-auto pt-12">
+    <div className="max-w-7xl mx-auto pt-24">
       <div className="grid grid-cols-1 md:grid-cols-3 border-t-2 border-[#222] pb-12 md:pb-0">
         <div className="border-b-2 md:border-b-0 md:border-r-2 border-[#222] p-4 relative">
           <span className="text-sm uppercase font-semibold tracking-tight">
