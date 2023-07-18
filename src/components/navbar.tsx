@@ -29,10 +29,10 @@ const Navbar = () => {
           <h1 className="text-xl md:text-4xl lg:text-6xl uppercase font-bold leading-tight tracking-widest text-[#222]">GreyNoise</h1>
         </div>
         <div className="relative">
-          <div className="border-2 border-[#222] py-1 md:py-2 px-2 md:px-4 flex items-center space-x-2 uppercase font-light text-xs md:text-sm">
+          <div className="border-2 border-[#222] py-1 md:py-2 px-2 md:px-4 flex items-center space-x-2 uppercase font-light text-xs md:text-sm cursor-pointer">
             <AiOutlineSearch 
               className="text-lg md:text-xl" />
-            <span>explore our data</span>
+            <span className="text-neutral-400">explore our data</span>
           </div> 
         </div>
       </div>
@@ -71,11 +71,11 @@ const Navbar = () => {
         
         {/* PRODUCT */}
         <div
-          className="flex items-center space-x-2 group"
+          className="flex items-center space-x-2 group cursor-pointer"
           onMouseEnter={() => handleLinkHover(0)}
           onMouseLeave={handleLinkLeave}
           >
-          <span className="group-hover:text-blue-500 transition duration-200 cursor-pointer uppercase text-sm">Product</span>
+          <span className="group-hover:text-blue-500 transition duration-200 uppercase text-sm">Product</span>
           <BsChevronDown className="group-hover:text-blue-500 transition duration-200" />
           {activeLink === 0 && (
             <div className="absolute top-[12rem] left-0 right-2 z-50">
@@ -153,11 +153,11 @@ const Navbar = () => {
 
         {/* SOLUTIONS */}
         <div
-          className="flex items-center space-x-2 group"
+          className="flex items-center space-x-2 group cursor-pointer"
           onMouseEnter={() => handleLinkHover(1)}
           onMouseLeave={handleLinkLeave}
           >
-          <span className="group-hover:text-blue-500 transition duration-200 cursor-pointer uppercase text-sm">solutions</span>
+          <span className="group-hover:text-blue-500 transition duration-200 uppercase text-sm">solutions</span>
           <BsChevronDown className="group-hover:text-blue-500 transition duration-200" />
           {activeLink === 1 && (
             <div className="absolute top-[12rem] left-0 right-2 z-50">
@@ -207,11 +207,11 @@ const Navbar = () => {
 
         {/* RESOURCES */}
         <div
-          className="flex items-center space-x-2 group"
+          className="flex items-center space-x-2 group cursor-pointer"
           onMouseEnter={() => handleLinkHover(2)}
           onMouseLeave={handleLinkLeave}
           >
-          <span className="group-hover:text-blue-500 transition duration-200 cursor-pointer uppercase text-sm">resources</span>
+          <span className="group-hover:text-blue-500 transition duration-200 uppercase text-sm">resources</span>
           <BsChevronDown className="group-hover:text-blue-500 transition duration-200" />
           {activeLink === 2 && (
             <div className="absolute top-[12rem] left-0 right-2 z-50">
@@ -260,11 +260,11 @@ const Navbar = () => {
 
         {/* COMPANY */}
         <div
-          className="flex items-center space-x-2 group"
+          className="flex items-center space-x-2 group cursor-pointer"
           onMouseEnter={() => handleLinkHover(3)}
           onMouseLeave={handleLinkLeave}
           >
-          <span className="group-hover:text-blue-500 transition duration-200 cursor-pointer uppercase text-sm">company</span>
+          <span className="group-hover:text-blue-500 transition duration-200 uppercase text-sm">company</span>
           <BsChevronDown className="group-hover:text-blue-500 transition duration-200" />
           {activeLink === 3 && (
             <div className="absolute top-[12rem] left-0 right-2 z-50">
@@ -316,11 +316,11 @@ const Navbar = () => {
 
         {/* PARTNERS */}
         <div
-          className="flex items-center space-x-2 group"
+          className="flex items-center space-x-2 group cursor-pointer"
           onMouseEnter={() => handleLinkHover(4)}
           onMouseLeave={handleLinkLeave}
           >
-          <span className="group-hover:text-blue-500 transition duration-200 cursor-pointer uppercase text-sm">partners</span>
+          <span className="group-hover:text-blue-500 transition duration-200 uppercase text-sm">partners</span>
           <BsChevronDown className="group-hover:text-blue-500 transition duration-200" />
           {activeLink === 4 && (
             <div className="absolute top-[12rem] left-0 right-2 z-50">
